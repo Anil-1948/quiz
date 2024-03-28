@@ -1,0 +1,204 @@
+
+    *{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding: 0;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    .main{
+        margin-top: -26px;
+        position:sticky;
+        top:0%;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        padding:8px;
+    }
+    .search p{
+        background-color: rgb(39, 190, 201);
+        width:50px;
+        text-align: center;
+    }
+    
+     a:hover{
+        background-color: rgb(176, 164, 164);
+    }
+    .navebar{
+        width:45%;
+    }
+    a{
+        color:white;
+    }
+   nav{
+   display: flex;
+   justify-content:space-between;
+   }
+   span{
+    background-color: green;
+    margin-left: -30px;
+    padding:12px;
+    padding-left:50px;
+    color:white;
+
+   }
+    img{
+       width:100%;
+    }
+    .img3 img{
+        height:550px;
+    }
+    .our{
+        padding:50px;
+        text-align: center;
+        line-height: 2.5;
+    }
+    
+    .images{
+        display: flex;
+        justify-content:space-evenly;
+    }
+    .images p{
+        padding-top:20px;
+        text-align:center;
+    }
+    .Work{
+        box-sizing: border-box;
+        display: flex;
+        background-color: rgb(75, 69, 69);
+        padding:50px;
+        margin-top:70px;
+        justify-content: space-around;
+    }
+    .Work ul{
+        padding:30px;
+        line-height:2;
+        list-style-type: none;
+    }
+    .Work2,.Work3,.Work4{
+        border:none;
+        box-shadow: 0 0 10px black;
+        background-color: white;
+    }
+    
+    .prices{
+        display: flex;
+    }
+    .pr1,.pr2,.pr3{
+        box-sizing: border-box;
+        flex:100%;
+        border:2px solid rgb(245, 237, 237);
+        
+        
+    }
+    .pr1:hover{
+        box-shadow: 0  0 30px rgb(45, 43, 43);
+    }
+    .pr2:hover{
+        box-shadow: 0  0 30px  rgb(45, 43, 43);
+    }
+    .pr3:hover{
+        box-shadow: 0  0 30px  rgb(45, 43, 43);
+    }
+    .prices p{
+        text-align: center;
+        border-bottom: 1px solid rgb(204, 199, 199);
+        padding:25px;
+        font-size: small;
+    }  
+    .prices strong{
+        padding: 8px;
+    } 
+    .prices button{
+    border:none;
+    background-color: rgb(107, 222, 216);
+    padding:13px;
+    border-radius: 1px;
+    width:120px;
+    }
+    
+    .about{
+        margin-top:100px;
+        background-color: rgb(243, 246, 246);
+        display: flex;
+        padding:50px 10px;
+    }
+    .ab1,.ab2{
+        flex:100%;
+    }
+    form{
+        box-shadow: 0  0 25px  rgb(45, 43, 43);
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding:20px;
+    }
+    .fbox{
+        display: flex;
+        justify-content: space-between;
+    }
+    .fbox label{
+        margin:10px 0 0 -400px;
+    }
+    input{
+        border:none;
+        padding:10px;
+    }
+    .ab1{
+        line-height: 2;
+        
+    }
+    .ab1 p{
+        text-decoration: underline;
+        text-decoration-color: rgb(17, 162, 111);
+    }
+   footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+   }
+.BOX{
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+    
+    @media screen and (max-width:730px){
+        
+        nav a,select,div a{
+            display:none;
+        }
+        .BOX{
+            flex-direction: column;
+            
+        }
+        .images{ 
+            
+            display: block;
+        }
+        
+        .Work,.prices{
+        display: block;
+        }
+        .Work1{
+            width:250px;
+        }
+        
+       .about,form{
+        display: block;
+        width:70%;
+       }
+       input{
+        width:50%;
+       }
+       
+    }
+
+    
