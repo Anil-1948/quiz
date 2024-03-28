@@ -1,0 +1,42 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.one{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height:300px;
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-gap: 10px;
+    background-color: rgb(231, 228, 225);
+    border:1px solid rgb(198, 191, 191);
+    border-radius:30px;;
+    background-image: url('beautiful-scenerey-mountain-pink-sky-600nw-2372324695.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main input{
+    grid-column: span 3;
+}
+.main button{
+    text-align: center;
+    background-color: rgb(173, 156, 156);
+    border-radius:0px;
+    box-shadow: 02px 0px 10px rgb(192, 185, 185);
+
+}
+.main input{
+    height:40px;
+    text-align: end;
+    background-color: rgb(237, 123, 174);
+    color:black;
+}
+.main button:active{
+    background-color: green;
+}
